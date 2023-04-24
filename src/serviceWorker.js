@@ -1,10 +1,8 @@
-const CACHE_NAME = 'my-pwa-cache';
+const CACHE_NAME = 'barber-cache';
 const urlsToCache = [
   '/',
-  '/index.html',
-  '/app.js',
-  '/img/icons/icon-192x192.png',
-  '/img/icons/icon-512x512.png'
+  '../index.html',
+  './app.tsx'
 ];
 
 self.addEventListener('install', event => {
